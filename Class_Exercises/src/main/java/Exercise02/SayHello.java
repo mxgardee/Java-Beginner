@@ -3,23 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_5;
+package Exercise02;
 
 /**
  *
  * @author 27605
  */
-public class Exercise_5 {
+public class SayHello {
+
+   
     public static void main(String[] args) {
-        
-        int quantity = 10;
-        
-        if (quantity > 1) {
-            System.out.println("Yes");
-        }
-        else {
-            System.out.println("OutOfStock");
-        }
+        System.out.println("Hello World!");
     }
     
 }

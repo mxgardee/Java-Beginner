@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson6;
+package Exercise03;
 
 /**
  *
  * @author 27605
  */
-public class myClass {
-    public static void main(String[] args) {
-        Customer customer1 = new Customer();
-    }
-    
+public class ShoppingCart {
+    public static void main (String[] args){
+        System.out.println("Welcome to the Shopping Cart!");    
+    }    
 }
+

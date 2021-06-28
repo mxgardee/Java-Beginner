@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Exercise9;
+package Exercise09;
 
 /**
  *
@@ -11,7 +11,12 @@ package Exercise9;
  */
 public class ShoppingCart {
     public static void main(String args[]){
-        Customer cust1 = new Customer("Seve Jackson", "011 111 1111");
+
+        // Declare, instantiate, and initialize a Customer object
+        Customer cust1 = new Customer("Bob Miller", "555-44-3212");
+
+	// Print the customer object name
         System.out.println("Customer name: "+cust1.getName());
     }    
 }
+

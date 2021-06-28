@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Exercise9;
+package Exercise09;
 
 /**
  *
@@ -13,6 +13,7 @@ public class Customer {
     private String name;
     private String ssn;
    
+    //Add a custom constructor
     public Customer(String name, String ssn){
         this.name = name;
         this.ssn = ssn;
@@ -29,3 +30,4 @@ public class Customer {
         return ssn;
     }
 }
+
